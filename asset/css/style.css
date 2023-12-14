@@ -1,0 +1,71 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+    /*
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.3rem;
+    margin: 1rem;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+}
+.box-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+}
+/*margin*/
+.mn-bottom{
+    margin-bottom: 1.5rem;
+}
+.mn-side{
+    margin: 0 0.75rem;
+}
+/*border*/
+.border-bottom{
+    border-bottom: 2px solid #6F4E37;
+}
+/*text-aling*/
+.center{
+    text-align: center;
+}
+/*font-size*/
+.normal{
+    font-size: 1.5rem;
+}
+/*Cores*/
+.azul-tiffany{
+    color: #0ABAB5;
+}
+.rosa-vintage{
+    color: #FFB6C1;
+}
+.amarelo-mostarda{
+    color: #FFDB58;
+}
+.creme-retro{
+    color: #FFF5E1;
+}
+.bg-creme-retro{
+    background-color: #FFF5E1;
+}
+.marron-cafe{
+    color: #6F4E37;
+}
+.preto-classico{
+    color: #000;
+}
+.bg-preto-classico{
+    background-color: #000;
+}
