@@ -7,6 +7,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 .title{
     font-family: 'Playfair Display', serif;
@@ -24,6 +26,8 @@
 }
 .box{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*margin*/
 .mn-bottom{
@@ -68,4 +72,24 @@
 }
 .bg-preto-classico{
     background-color: #000;
+}
+.bg-transparent{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/*COPONENTS*/
+/*HEADER*/
+.header-main{
+    background-image: url(../midia/imagens/front-view-young-man-posing-vintage-portrait.jpg);
+    background-position: 50% 47%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    height: 2.3rem;
+}
+.menu a:hover{
+    color: #FFDB58;
+}
+.active-menu{
+    color: #FFDB58;
 }
