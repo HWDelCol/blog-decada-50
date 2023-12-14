@@ -29,6 +29,11 @@
     align-items: center;
     justify-content: center;
 }
+.box-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
 /*margin*/
 .mn-bottom{
     margin-bottom: 1.5rem;
@@ -57,6 +62,9 @@
 }
 .amarelo-mostarda{
     color: #FFDB58;
+}
+.bg-amarelo-mostarda{
+    background-color: #FFDB58;
 }
 .creme-retro{
     color: #FFF5E1;
