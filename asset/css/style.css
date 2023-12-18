@@ -10,10 +10,23 @@
     list-style: none;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: #FFB6C1;
+    transition: all 300ms ease-in-out;
+}
+a:hover{
+    border-bottom: 1px solid #6F4E37;
+
+}
 .title{
     font-family: 'Playfair Display', serif;
     font-size: 3.3rem;
     margin: 1rem;
+}
+.title-p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
 }
 .text{
     font-family: 'Open Sans', sans-serif;
@@ -41,7 +54,13 @@
 .mn-side{
     margin: 0 0.75rem;
 }
+.mn-general{
+    margin: 0.75rem;
+}
 /*border*/
+.border{
+    border: 2px solid #6F4E37;
+}
 .border-bottom{
     border-bottom: 2px solid #6F4E37;
 }
@@ -100,6 +119,30 @@
 }
 .active-menu{
     color: #FFDB58;
+}
+/*MAIN*/
+.white-table{
+    width: 100%;
+}
+.card-post{
+    width: 500px;
+}
+.img-card{
+    width: 200px;
+}
+.description{}
+/*ASIDA*/
+article.bio{
+    width: 300px;
+}
+header.photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(../midia/imagens/photoPerfil.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 50% 50%;
 }
 /*FOOTER*/
 .footer-section-one{
