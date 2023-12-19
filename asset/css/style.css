@@ -15,10 +15,6 @@ a{
     color: #FFB6C1;
     transition: all 300ms ease-in-out;
 }
-a:hover{
-    border-bottom: 1px solid #6F4E37;
-
-}
 .title{
     font-family: 'Playfair Display', serif;
     font-size: 3.3rem;
@@ -130,7 +126,12 @@ a:hover{
 .img-card{
     width: 200px;
 }
-.description{}
+.description{
+    width: 80%;
+}
+.card-post a:hover{
+    border-bottom: 1px solid #6F4E37;
+}
 /*ASIDA*/
 article.bio{
     width: 300px;
